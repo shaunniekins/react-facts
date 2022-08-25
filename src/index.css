@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 550px;
+    font-family: 'Inter', Calibri, serif;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 90px;
+    background: #21222a;
+    padding: 35px 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > #nav--logo {
+    color: #61DAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > #nav--logo > #nav--logo_icon {
+    height: 30px;
+}
+
+nav > #nav--logo > #nav--logo_text {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+nav > #nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main {
+    height: 459px;
+    background: #282D35;
+    color: #FFFFFF;
+    padding: 57px 27px;
+    /* background: url("./reactjs-icon-2.png");
+    background-repeat: no-repeat;
+    background-position-x: right; */
+}
+
+main > #main--title{
+    font-weight: 700;
+    font-size: 39px;
+    /* padding: 57px 0 46px 27px; */
+    padding-bottom: 18px;
+    letter-spacing: -0.05 em;
+}
+
+main > #main--facts {
+    padding-left: 51px;
+    line-height: 2rem;
+    max-width: 450px;
+}
+
+main > #main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+main > #main--facts > li::marker {
+    font-size: 2rem;
+    color: #61DAFB;
+}
+
+main > #main--icon {
+    height: 285px;
+    z-index: 0;
+    position: relative;
+    bottom: 76%;
+    left: 76.5%;
+}
